@@ -1,9 +1,11 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router';
 import './App.css';
-// import SignIn from './components/SignIn';
+import SignIn from './components/SignIn';
 import LogIn from './components/LogIn';
 import Dashboard from './components/dashboard';
-// import Dashboard from './components/dashboard';
+import Sidebar from './components/sidebar';
+import Vendor from './components/Vendor';
+
 
 function App() {
   return (
@@ -13,8 +15,9 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Dashboard />} />
-          {/* <Route path="/signup" element={<SignUp />} /> */}
+          <Route path="/signIn" element={<SignIn />} />
           <Route path="/login" element={<LogIn />} />
+          <Route path="/vendor-details" element={<><Sidebar /> <Vendor /></>} />
         </Routes>
 
       </div>
