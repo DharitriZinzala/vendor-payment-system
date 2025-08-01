@@ -7,12 +7,12 @@ import { getFirestore, collection, addDoc, serverTimestamp } from "firebase/fire
 // Your web app's Firebase configuration
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCrCrcTTrI4hzxFHitG0l0YQ2OGboUvaDs",
+    apiKey: "",
     authDomain: "vendor-payment-system.firebaseapp.com",
     projectId: "vendor-payment-system",
     storageBucket: "vendor-payment-system.firebasestorage.app",
     messagingSenderId: "445374552282",
-    appId: "1:445374552282:web:b9abe339a52675f486ede3",
+    appId: "",
     measurementId: "G-BX0HZW29MY"
 };
 
